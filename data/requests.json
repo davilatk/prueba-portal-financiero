@@ -1,0 +1,212 @@
+[
+    {
+        "id": "REQ-001",
+        "provider": "Aeroméxico",
+        "amount": 45200,
+        "status": "pending",
+        "date": "2024-11-01"
+    },
+    {
+        "id": "REQ-002",
+        "provider": "Hotel Riu Plaza Guadalajara",
+        "amount": 12500.5,
+        "status": "pending",
+        "date": "2024-11-01"
+    },
+    {
+        "id": "REQ-003",
+        "provider": "Volaris",
+        "amount": 8400,
+        "status": "pending",
+        "date": "2024-11-02"
+    },
+    {
+        "id": "REQ-004",
+        "provider": "Grupo Xcaret",
+        "amount": 15600,
+        "status": "pending",
+        "date": "2024-11-02"
+    },
+    {
+        "id": "REQ-005",
+        "provider": "AWS Services",
+        "amount": 890,
+        "status": "pending",
+        "date": "2024-11-03"
+    },
+    {
+        "id": "REQ-006",
+        "provider": "Uber Business",
+        "amount": 4500.2,
+        "status": "pending",
+        "date": "2024-11-03"
+    },
+    {
+        "id": "REQ-007",
+        "provider": "Assist Card Seguros",
+        "amount": 2100,
+        "status": "pending",
+        "date": "2024-11-04"
+    },
+    {
+        "id": "REQ-008",
+        "provider": "Hertz Rent a Car",
+        "amount": 6750,
+        "status": "pending",
+        "date": "2024-11-04"
+    },
+    {
+        "id": "REQ-009",
+        "provider": "Iberia Líneas Aéreas",
+        "amount": 34000,
+        "status": "pending",
+        "date": "2024-11-05"
+    },
+    {
+        "id": "REQ-010",
+        "provider": "Office Depot",
+        "amount": 1200,
+        "status": "pending",
+        "date": "2024-11-05"
+    },
+    {
+        "id": "REQ-011",
+        "provider": "CFE (Electricidad)",
+        "amount": 5600,
+        "status": "pending",
+        "date": "2024-11-06"
+    },
+    {
+        "id": "REQ-012",
+        "provider": "Telmex (Internet)",
+        "amount": 999,
+        "status": "pending",
+        "date": "2024-11-06"
+    },
+    {
+        "id": "REQ-013",
+        "provider": "Marriott Bonvoy",
+        "amount": 18400,
+        "status": "pending",
+        "date": "2024-11-07"
+    },
+    {
+        "id": "REQ-014",
+        "provider": "Civitatis Tours",
+        "amount": 3500,
+        "status": "pending",
+        "date": "2024-11-07"
+    },
+    {
+        "id": "REQ-015",
+        "provider": "Expedia TAAP",
+        "amount": 9800.5,
+        "status": "pending",
+        "date": "2024-11-08"
+    },
+    {
+        "id": "REQ-016",
+        "provider": "Hotelbeds",
+        "amount": 22100,
+        "status": "pending",
+        "date": "2024-11-08"
+    },
+    {
+        "id": "REQ-017",
+        "provider": "Copa Airlines",
+        "amount": 11300,
+        "status": "pending",
+        "date": "2024-11-09"
+    },
+    {
+        "id": "REQ-018",
+        "provider": "Zoom Video Communications",
+        "amount": 350,
+        "status": "pending",
+        "date": "2024-11-09"
+    },
+    {
+        "id": "REQ-019",
+        "provider": "Slack Technologies",
+        "amount": 450,
+        "status": "pending",
+        "date": "2024-11-10"
+    },
+    {
+        "id": "REQ-020",
+        "provider": "Google Workspace",
+        "amount": 600,
+        "status": "pending",
+        "date": "2024-11-10"
+    },
+    {
+        "id": "REQ-021",
+        "provider": "Amadeus GDS",
+        "amount": 4200,
+        "status": "pending",
+        "date": "2024-11-11"
+    },
+    {
+        "id": "REQ-022",
+        "provider": "Sabre Travel Network",
+        "amount": 3900,
+        "status": "pending",
+        "date": "2024-11-11"
+    },
+    {
+        "id": "REQ-023",
+        "provider": "Air France",
+        "amount": 45000,
+        "status": "pending",
+        "date": "2024-11-12"
+    },
+    {
+        "id": "REQ-024",
+        "provider": "Hilton Hotels",
+        "amount": 14200,
+        "status": "pending",
+        "date": "2024-11-12"
+    },
+    {
+        "id": "REQ-025",
+        "provider": "Transportes Turísticos Cancún",
+        "amount": 2800,
+        "status": "pending",
+        "date": "2024-11-13"
+    },
+    {
+        "id": "REQ-026",
+        "provider": "Royal Caribbean Cruises",
+        "amount": 28000,
+        "status": "pending",
+        "date": "2024-11-13"
+    },
+    {
+        "id": "REQ-027",
+        "provider": "Despegar.com",
+        "amount": 7500,
+        "status": "pending",
+        "date": "2024-11-14"
+    },
+    {
+        "id": "REQ-028",
+        "provider": "Airbnb for Work",
+        "amount": 6200,
+        "status": "pending",
+        "date": "2024-11-14"
+    },
+    {
+        "id": "REQ-029",
+        "provider": "American Express Corporate",
+        "amount": 12000,
+        "status": "pending",
+        "date": "2024-11-15"
+    },
+    {
+        "id": "REQ-030",
+        "provider": "Limpieza y Mantenimiento S.A.",
+        "amount": 2500,
+        "status": "pending",
+        "date": "2024-11-15"
+    }
+]
