@@ -1,6 +1,5 @@
 "use client"
 
-import * as React from "react"
 import {
     ColumnDef,
     flexRender,
@@ -21,8 +20,10 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table"
-import { Button } from "@/components/ui/button"
+import { Button, } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import { useState } from "react"
+import { NativeSelect, NativeSelectOption } from "./native-select"
 
 interface DataTableProps<TData, TValue> {
     columns: ColumnDef<TData, TValue>[]
@@ -35,8 +36,9 @@ export function DataTable<TData, TValue>({
     data,
     searchKey = "provider",
 }: DataTableProps<TData, TValue>) {
-    const [sorting, setSorting] = React.useState<SortingState>([])
-    const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>([])
+    const [pageSize, setpageSize] = useState(30)
+    const [sorting, setSorting] = useState<SortingState>([])
+    const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([])
 
     const table = useReactTable({
         data,
@@ -108,6 +110,25 @@ export function DataTable<TData, TValue>({
                         )}
                     </TableBody>
                 </Table>
+                <div className="flex justify-end items-center space-x-2 py-4 px-2">
+                    <NativeSelect onChange={(e) => {
+                        setpageSize(Number(e.target.value))
+                        table.setPageSize(Number(e.target.value))
+                    }} value={pageSize}>
+                        <NativeSelectOption value="10">10</NativeSelectOption>
+                        <NativeSelectOption value="20">20</NativeSelectOption>
+                        <NativeSelectOption value="50">50</NativeSelectOption>
+                    </NativeSelect>
+                    <div className="flex items-center space-x-2">
+                        <span>Página {table.getState().pagination.pageIndex + 1} de {table.getPageCount()}</span>
+                        <Button onClick={() => table.previousPage()} disabled={!table.getCanPreviousPage()}>
+                            {'<<'}
+                        </Button>
+                        <Button onClick={() => table.nextPage()} disabled={!table.getCanNextPage()}>
+                            {'>>'}
+                        </Button>
+                    </div>
+                </div>
             </div>
         </div>
     )
